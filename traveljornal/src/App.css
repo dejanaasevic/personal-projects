@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f64f51;
+    color: white;
+
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+header > h1{
+    font-weight: 300;
+}
+
+.entry{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+
+}
+
+.picture-container{
+    display:flex;
+    align-items: center;
+}
+.picture-container img{
+    height: 350px;
+    border-radius: 20px;
+}
+
+.info-container{
+    padding: 30px;
+}
+
+.location-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location-container > a {
+    margin-left: 15px;
+    color: gray;
+}
+
+.location{
+    width: 12px;
+    margin-right: 5px;
+}
+
+.country-location{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.text-container > h1{
+    font-size: 40px;
+    margin-top: 5px;
+}
